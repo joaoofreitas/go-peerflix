@@ -1,4 +1,4 @@
-module github.com/Sioro-Neoku/go-peerflix
+module github.com/joaoofreitas/go-peerflix
 
 go 1.13
 

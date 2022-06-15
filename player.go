@@ -39,7 +39,7 @@ func (p GenericPlayer) Open(url string) error {
 }
 
 // openPlayer opens a stream using the specified player and port.
-func openPlayer(playerName string, port int) {
+func OpenPlayer(playerName string, port int) {
 	var player Player
 	for _, genericPlayer := range genericPlayers {
 		if strings.EqualFold(genericPlayer.Name, playerName) {

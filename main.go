@@ -53,7 +53,7 @@ func main() {
 			for !client.ReadyForPlayback() {
 				time.Sleep(time.Second)
 			}
-			openPlayer(*player, cfg.Port)
+			OpenPlayer(*player, cfg.Port)
 		}()
 	}
 
